@@ -15,5 +15,5 @@ The following code:
       
 will produce this as a result:
 
-![gif of dart monkeys being placed](https://github.com/56kyle/btd6/blob/master/dart_box.gif
+![gif of dart monkeys being placed](https://github.com/56kyle/btd6/blob/master/dart_box.gif)
 
