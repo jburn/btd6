@@ -3,15 +3,16 @@ This started out as an attempt to determine what the hit boxes for each tower in
 
 ## Example
 The following code:
+```
+from towers.dart import Dart
+import time
 
-  from towers.dart import Dart
-  import time
-  
-  if __name__ == "__main__":
-      time.sleep(1)
-      darts = Dart.box(3, 3, upgrades=[2, 4, 0])
-      time.sleep(2)
-      del darts
+if __name__ == "__main__":
+    time.sleep(1)
+    darts = Dart.box(3, 3, upgrades=[2, 4, 0])
+    time.sleep(2)
+    del darts
+```
       
 will produce this as a result:
 
