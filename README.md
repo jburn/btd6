@@ -1,3 +1,6 @@
 # btd6
-Using python to try and extract more accurate data from BloonsTD6.\
-Also includes some automation for testing purposes.
+This started out as an attempt to determine what the hit boxes for each tower in Bloons Tower Defense 6 were, but eventually became a script for placing perfectly tesselated tower grids of any tower type
+
+## Exmaples
+
+
