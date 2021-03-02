@@ -21,8 +21,9 @@ from towers.village import Village
 from towers.engi import Engi
 
 import time
-from pyautogui import *
 from tower import Tower
+import win32ui
+import keyboard
 
 types = [
     Dart,
@@ -49,10 +50,19 @@ types = [
 ]
 
 
+def is_btd6():
+    foreground = win32ui.GetForegroundWindow()
+    window_name = foreground.GetWindowText()
+    return window_name == 'BloonsTD6'
+
+
 def main():
-    time.sleep(3)
-    Dart.box(5, 4)
-    print(Tower.towers)
+    while not keyboard.is_pressed(']'):
+        pass
+    time.sleep(1)
+    darts = Dart.box(3, 3, upgrades=[2, 4, 0])
+    time.sleep(2)
+    del darts
 
 
 if __name__ == '__main__':
