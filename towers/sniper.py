@@ -8,5 +8,5 @@ class Sniper(Tower):
     width = 65
     height = 57
 
-    def __init__(self, placement=None):
-        super(Sniper, self).__init__(Sniper, placement)
+    def __init__(self, placement=None, upgrades=None):
+        super(Sniper, self).__init__(Sniper, placement, upgrades)

@@ -8,5 +8,5 @@ class Alch(Tower):
     width = 65
     height = 57
 
-    def __init__(self, placement=None):
-        super(Alch, self).__init__(Alch, placement)
+    def __init__(self, placement=None, upgrades=None):
+        super(Alch, self).__init__(Alch, placement, upgrades)

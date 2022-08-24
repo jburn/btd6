@@ -8,5 +8,5 @@ class Village(Tower):
     width = 119
     height = 103
 
-    def __init__(self, placement=None):
-        super(Village, self).__init__(Village, placement)
+    def __init__(self, placement=None, upgrades=None):
+        super(Village, self).__init__(Village, placement, upgrades)
